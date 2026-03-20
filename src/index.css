@@ -17,4 +17,9 @@
   .Darker {
   font-family: 'Darker Grotesque', sans-serif;
   }
+  .animate-fadeIn {
+  opacity: 1;
+  transform: translateY(-50px);
+  transition: all 2s;
+  }
 }

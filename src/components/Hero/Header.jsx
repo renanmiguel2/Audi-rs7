@@ -1,6 +1,6 @@
-import logo from '../img/imgLogo/logo.png'
-import location from '../img/icons/location-svg.svg'
-import user from '../img/icons/user-svg.svg'
+import logo from '../../img/imgLogo/logo.png'
+import location from '../../img/icons/location-svg.svg'
+import user from '../../img/icons/user-svg.svg'
 function Header() {
     return (
         <div className='absolute top-0 left-0 w-full z-10 shadow-custom min-w-full'>
