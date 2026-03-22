@@ -41,11 +41,11 @@ function Description() {
 
     return (
         <div>
-            <div className="hidden md:flex mt-1 px-20 gap-10 Darker text-xl font-semibold">
+            <div className="hidden md:flex mt-1 px-20 gap-6 lg:gap-10 Darker text-xl font-semibold">
                 {description.map((desc) => {
                     return (
                         <div key={desc.title} className='text-center'>
-                            <h3 className="hover:bg-gray-700 px-4 py-2 rounded-2xl duration-300 ease-out cursor-pointer text-gray-300 ">{desc.title}</h3>
+                            <h3 className="hover:bg-gray-700 px-4 py-2 rounded-2xl duration-300 ease-out cursor-pointer text-gray-400 md:text-sm lg:text-lg">{desc.title}</h3>
                         </div>
                     )
                 })}
