@@ -7,7 +7,7 @@ function Desempenho() {
     ]
     return (
         <div>
-            <h1 className="text-5xl md:text-7xl font-semibold Darker text-center mt-5 md:mt-10">Desempenho</h1>
+            <h1 className="text-5xl md:text-7xl font-semibold Darker text-center mt-5 md:mt-10 tracking-wider">Desempenho</h1>
             <div className="grid md:grid-cols-3 gap-px px-5 md:px-20 mt-10 md:mt-20">
                 {description.map((desc) => (
                     <div className="grid items-center text-center bg-[#34363b] rounded-2xl py-5 gap-2" key={desc.title}>
@@ -19,7 +19,7 @@ function Desempenho() {
             </div>
             <div className="mt-10 md:mt-20">
                 <div className="flex items-center justify-center">
-                    <img src={Motor} className=" w-full max-w-400 " alt="" />
+                    <img src={Motor} className="w-full max-w-400" alt="Motor" />
                 </div>
                 <div className="px-6 md:px-30 mt-5 max-w-7/8">
                     <h1 className="Darker text-3xl font-semibold">Potência V8.</h1>

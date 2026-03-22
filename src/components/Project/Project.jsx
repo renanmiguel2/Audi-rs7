@@ -7,7 +7,7 @@ function Project () {
                 <p className="text-gray-400 text-[10px] md:text-sm">Clique em 'Continuar a compilação' para configurar opções adicionais.</p>
             </div>
             <div className="flex flex-col items-center mt-5 md:mt-20">
-                <h1 className="text-5xl md:text-7xl font-semibold Darker">Projeto</h1>
+                <h1 className="text-5xl md:text-7xl font-semibold Darker tracking-wider">Projeto</h1>
                 <img src={Design} className="mt-10 md:mt-15 w-full max-w-400 " alt="Design" />
             </div>
                 <div className="px-6 md:px-30 mt-5">
