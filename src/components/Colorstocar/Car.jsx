@@ -17,17 +17,17 @@ function Car () {
     const [selectedColor, setSelectedColor] = useState('Black')
     
     return (
-        <div className="relative flex flex-col items-center">
+        <div className="flex flex-col items-center">
             <div className="relative">
                 <img src={colors.find(color => color.id ===selectedColor).imageCar} className="max-w-full" />
-            </div>
-            <div className=" absolute top-35 md:top-90 lg:top-180 flex justify-center px-10 py-2 gap-3 bg-[#4b5563] rounded-full">
+            <div className=" absolute bottom-0 left-1/2 -translate-x-1/2 flex justify-center px-4 md:px-10 py-2 gap-3 bg-[#4b5563] rounded-full">
                 {colors.map((color) => (
                         <button key={color.id} className="flex items-center" onClick={() => setSelectedColor(color.id)}>
-                            <img src={color.imageColor} className={`w-10 h-10 rounded-full cursor-pointer border-2 ${selectedColor === color.id ? 'border-white scale-120 duration-200' : 'border-transparent'}`} />
+                            <img src={color.imageColor} className={`w-10  rounded-full cursor-pointer border-2 ${selectedColor === color.id ? 'border-white scale-120 duration-200' : 'border-transparent'}`} />
                         </button>
                 ))}
                 
+            </div>
             </div>
         </div>
     )
