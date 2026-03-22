@@ -8,7 +8,7 @@ function Project () {
             </div>
             <div className="flex flex-col items-center mt-5 md:mt-20">
                 <h1 className="text-5xl md:text-7xl font-semibold Darker tracking-wider">Projeto</h1>
-                <img src={Design} className="mt-10 md:mt-15 w-full max-w-400 " alt="Design" />
+                <img src={Design} className="mt-10 md:mt-15 w-full max-w-400 px-6 md:px-0" alt="Design" />
             </div>
                 <div className="px-6 md:px-30 mt-5">
                     <h2 className="text-2xl md:text-4xl font-medium Darker">Elementos anteriores.</h2>

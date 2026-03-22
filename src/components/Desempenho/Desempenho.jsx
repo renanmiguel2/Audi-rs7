@@ -19,7 +19,7 @@ function Desempenho() {
             </div>
             <div className="mt-10 md:mt-20">
                 <div className="flex items-center justify-center">
-                    <img src={Motor} className="w-full max-w-400" alt="Motor" />
+                    <img src={Motor} className="w-full max-w-400 px-5 md:px-0" alt="Motor" />
                 </div>
                 <div className="px-6 md:px-30 mt-5 max-w-7/8">
                     <h1 className="Darker text-3xl font-semibold">Potência V8.</h1>
