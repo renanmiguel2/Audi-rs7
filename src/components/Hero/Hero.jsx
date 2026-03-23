@@ -15,7 +15,7 @@ function Hero() {
                     <p>Preço inicial sugerido pelo fabricante: US$ 130.700. </p>
                     <p>Veja as principais informações.</p>
                         <div className='flex gap-4 flex-col sm:flex-row mt-6'>
-                            <button className='bg-[#657182] hover:bg-[#4b4e53] duration-200 text-white py-3 px-5 rounded-full text-xl cursor-pointer'>Contruir e precificar</button>
+                            <button className='bg-[#657182] hover:bg-[#4b4e53] duration-200 text-white py-3 px-5 rounded-full text-xl cursor-pointer'>Construir e precificar</button>
                             <button className='bg-[#191e26] hover:bg-[#2d3540] duration-300 text-white py-3 px-5 rounded-full text-xl cursor-pointer'>Pesquisar inventário</button>
                     </div>
                 </div>
